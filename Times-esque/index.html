@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INKREALM SUNDAY TIMES</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav width-100 flex-space-btwn">
+        <div class="nav__left">
+          <i class="fas fa-bars"></i>
+          <button type="button" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <a href="#" class="nav__left-title">inky & the muse</a>
+        </div>
+        <div class="nav__center">
+          <a
+            class="logotype"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.inkrealm.cloud"
+          >
+            <svg viewBox="0 0 184 25" fill="#000">
+              <path
+                d="M13.8 2.9c0-2-1.9-2.5-3.4-2.5v.3c.9 0 1.6.3 1.6 1 0 .4-.3 1-1.2 1-.7 0-2.2-.4-3.3-.8C6.2 1.4 5 1 4 1 2 1 .6 2.5.6 4.2c0 1.5 1.1 2 1.5 2.2l.1-.2c-.2-.2-.5-.4-.5-1 0-.4.4-1.1 1.4-1.1.9 0 2.1.4 3.7.9 1.4.4 2.9.7 3.7.8v3.1L9 10.2v.1l1.5 1.3v4.3c-.8.5-1.7.6-2.5.6-1.5 0-2.8-.4-3.9-1.6l4.1-2V6l-5 2.2C3.6 6.9 4.7 6 5.8 5.4l-.1-.3c-3 .8-5.7 3.6-5.7 7 0 4 3.3 7 7 7 4 0 6.6-3.2 6.6-6.5h-.2c-.6 1.3-1.5 2.5-2.6 3.1v-4.1l1.6-1.3v-.1l-1.6-1.3V5.8c1.5 0 3-1 3-2.9zm-8.7 11l-1.2.6c-.7-.9-1.1-2.1-1.1-3.8 0-.7 0-1.5.2-2.1l2.1-.9v6.2zm10.6 2.3l-1.3 1 .2.2.6-.5 2.2 2 3-2-.1-.2-.8.5-1-1V9.4l.8-.6 1.7 1.4v6.1c0 3.8-.8 4.4-2.5 5v.3c2.8.1 5.4-.8 5.4-5.7V9.3l.9-.7-.2-.2-.8.6-2.5-2.1L18.5 9V.8h-.2l-3.5 2.4v.2c.4.2 1 .4 1 1.5l-.1 11.3zM34 15.1L31.5 17 29 15v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.6l-1 .8.2.2.9-.7 3.4 2.5 4.5-3.6-.1-.4zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zM53.1 2c0-.3-.1-.6-.2-.9h-.2c-.3.8-.7 1.2-1.7 1.2-.9 0-1.5-.5-1.9-.9l-2.9 3.3.2.2 1-.9c.6.5 1.1.9 2.5 1v8.3L44 3.2c-.5-.8-1.2-1.9-2.6-1.9-1.6 0-3 1.4-2.8 3.6h.3c.1-.6.4-1.3 1.1-1.3.5 0 1 .5 1.3 1v3.3c-1.8 0-3 .8-3 2.3 0 .8.4 2 1.6 2.3v-.2c-.2-.2-.3-.4-.3-.7 0-.5.4-.9 1.1-.9h.5v4.2c-2.1 0-3.8 1.2-3.8 3.2 0 1.9 1.6 2.8 3.4 2.7v-.2c-1.1-.1-1.6-.6-1.6-1.3 0-.9.6-1.3 1.4-1.3.8 0 1.5.5 2 1.1l2.9-3.2-.2-.2-.7.8c-1.1-1-1.7-1.3-3-1.5V5l8 14h.6V5c1.5-.1 2.9-1.3 2.9-3zm7.3 13.1L57.9 17l-2.5-2v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.6l-1 .8.2.2.9-.7 3.4 2.5 4.5-3.6-.1-.4zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zM76.7 8l-.7.5-1.9-1.6-2.2 2 .9.9v7.5l-2.4-1.5V9.6l.8-.5-2.3-2.2-2.2 2 .9.9V17l-.3.2-2.1-1.5v-6c0-1.4-.7-1.8-1.5-2.3-.7-.5-1.1-.8-1.1-1.5 0-.6.6-.9.9-1.1v-.2c-.8 0-2.9.8-2.9 2.7 0 1 .5 1.4 1 1.9s1 .9 1 1.8v5.8l-1.1.8.2.2 1-.8 2.3 2 2.5-1.7 2.8 1.7 5.3-3.1V9.2l1.3-1-.2-.2zm18.6-5.5l-1 .9-2.2-2-3.3 2.4V1.6h-.3l.1 16.2c-.3 0-1.2-.2-1.9-.4l-.2-13.5c0-1-.7-2.4-2.5-2.4s-3 1.4-3 2.8h.3c.1-.6.4-1.1 1-1.1s1.1.4 1.1 1.7v3.9c-1.8.1-2.9 1.1-2.9 2.4 0 .8.4 2 1.6 2V13c-.4-.2-.5-.5-.5-.7 0-.6.5-.8 1.3-.8h.4v6.2c-1.5.5-2.1 1.6-2.1 2.8 0 1.7 1.3 2.9 3.3 2.9 1.4 0 2.6-.2 3.8-.5 1-.2 2.3-.5 2.9-.5.8 0 1.1.4 1.1.9 0 .7-.3 1-.7 1.1v.2c1.6-.3 2.6-1.3 2.6-2.8s-1.5-2.4-3.1-2.4c-.8 0-2.5.3-3.7.5-1.4.3-2.8.5-3.2.5-.7 0-1.5-.3-1.5-1.3 0-.8.7-1.5 2.4-1.5.9 0 2 .1 3.1.4 1.2.3 2.3.6 3.3.6 1.5 0 2.8-.5 2.8-2.6V3.7l1.2-1-.2-.2zm-4.1 6.1c-.3.3-.7.6-1.2.6s-1-.3-1.2-.6V4.2l1-.7 1.4 1.3v3.8zm0 3c-.2-.2-.7-.5-1.2-.5s-1 .3-1.2.5V9c.2.2.7.5 1.2.5s1-.3 1.2-.5v2.6zm0 4.7c0 .8-.5 1.6-1.6 1.6h-.8V12c.2-.2.7-.5 1.2-.5s.9.3 1.2.5v4.3zm13.7-7.1l-3.2-2.3-4.9 2.8v6.5l-1 .8.1.2.8-.6 3.2 2.4 5-3V9.2zm-5.4 6.3V8.3l2.5 1.8v7.1l-2.5-1.7zm14.9-8.4h-.2c-.3.2-.6.4-.9.4-.4 0-.9-.2-1.1-.5h-.2l-1.7 1.9-1.7-1.9-3 2 .1.2.8-.5 1 1.1v6.3l-1.3 1 .2.2.6-.5 2.4 2 3.1-2.1-.1-.2-.9.5-1.2-1V9c.5.5 1.1 1 1.8 1 1.4.1 2.2-1.3 2.3-2.9zm12 9.6L123 19l-4.6-7 3.3-5.1h.2c.4.4 1 .8 1.7.8s1.2-.4 1.5-.8h.2c-.1 2-1.5 3.2-2.5 3.2s-1.5-.5-2.1-.8l-.3.5 5 7.4 1-.6v.1zm-11-.5l-1.3 1 .2.2.6-.5 2.2 2 3-2-.2-.2-.8.5-1-1V.8h-.1l-3.6 2.4v.2c.4.2 1 .3 1 1.5v11.3zM143 2.9c0-2-1.9-2.5-3.4-2.5v.3c.9 0 1.6.3 1.6 1 0 .4-.3 1-1.2 1-.7 0-2.2-.4-3.3-.8-1.3-.4-2.5-.8-3.5-.8-2 0-3.4 1.5-3.4 3.2 0 1.5 1.1 2 1.5 2.2l.1-.2c-.3-.2-.6-.4-.6-1 0-.4.4-1.1 1.4-1.1.9 0 2.1.4 3.7.9 1.4.4 2.9.7 3.7.8V9l-1.5 1.3v.1l1.5 1.3V16c-.8.5-1.7.6-2.5.6-1.5 0-2.8-.4-3.9-1.6l4.1-2V6l-5 2.2c.5-1.3 1.6-2.2 2.6-2.9l-.1-.2c-3 .8-5.7 3.5-5.7 6.9 0 4 3.3 7 7 7 4 0 6.6-3.2 6.6-6.5h-.2c-.6 1.3-1.5 2.5-2.6 3.1v-4.1l1.6-1.3v-.1L140 8.8v-3c1.5 0 3-1 3-2.9zm-8.7 11l-1.2.6c-.7-.9-1.1-2.1-1.1-3.8 0-.7.1-1.5.3-2.1l2.1-.9-.1 6.2zm12.2-12h-.1l-2 1.7v.1l1.7 1.9h.2l2-1.7v-.1l-1.8-1.9zm3 14.8l-.8.5-1-1V9.3l1-.7-.2-.2-.7.6-1.8-2.1-2.9 2 .2.3.7-.5.9 1.1v6.5l-1.3 1 .1.2.7-.5 2.2 2 3-2-.1-.3zm16.7-.1l-.7.5-1.1-1V9.3l1-.8-.2-.2-.8.7-2.3-2.1-3 2.1-2.3-2.1L154 9l-1.8-2.1-2.9 2 .1.3.7-.5 1 1.1v6.5l-.8.8 2.3 1.9 2.2-2-.9-.9V9.3l.9-.6 1.5 1.4v6l-.8.8 2.3 1.9 2.2-2-.9-.9V9.3l.8-.5 1.6 1.4v6l-.7.7 2.3 2.1 3.1-2.1v-.3zm8.7-1.5l-2.5 1.9-2.5-2v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.8l3.5 2.5 4.5-3.6-.1-.3zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zm14.1-.9l-1.9-1.5c1.3-1.1 1.8-2.6 1.8-3.6v-.6h-.2c-.2.5-.6 1-1.4 1-.8 0-1.3-.4-1.8-1L176 9.3v3.6l1.7 1.3c-1.7 1.5-2 2.5-2 3.3 0 1 .5 1.7 1.3 2l.1-.2c-.2-.2-.4-.3-.4-.8 0-.3.4-.8 1.2-.8 1 0 1.6.7 1.9 1l4.3-2.6v-3.6h-.1zm-1.1-3c-.7 1.2-2.2 2.4-3.1 3l-1.1-.9V8.1c.4 1 1.5 1.8 2.6 1.8.7 0 1.1-.1 1.6-.4zm-1.7 8c-.5-1.1-1.7-1.9-2.9-1.9-.3 0-1.1 0-1.9.5.5-.8 1.8-2.2 3.5-3.2l1.2 1 .1 3.6z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <div class="nav__right">
+          <button type="button" class="subscribe">LOVE</button>
+          <button type="button" class="subscribe">or lust</button>
+        </div>
+      </nav>
+    </header>
+    <main class="main width-100">
+      <section class="main-article">
+        <h1 class="main-title">JELLY & JAM</h1>
+        <figure class="cont-img">
+          <img
+            class="main-figure width-100"
+            src="./images/18cosmos-superJumbo.jpg"
+            alt=""
+          />
+          <figcaption class="caption">
+            A Short Story By Julio Peralta-Paulino
+ About 6000 Words https://www.pw.org/directory/writers/julio_peraltapaulino 
+ 
+            <span class="author black">keira grant for The magic beach motel</span>
+          </figcaption>
+        </figure>
+      </section>
+      <div class="article-content">
+        <div class="publish-date flex-space-btwn">
+          <div class="info-article">
+            <p>By <span>inky</span></p>
+            <time datetime="2022">2022</time>
+          </div>
+          <div class="article-social-media">
+            <svg class="css-1acmxgr" viewBox="0 0 7 15" width="7" height="15">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M4.775 14.163V7.08h1.923l.255-2.441H4.775l.004-1.222c0-.636.06-.977.958-.977H6.94V0H5.016c-2.31 0-3.123 1.184-3.123 3.175V4.64H.453v2.44h1.44v7.083h2.882z"
+                fill="#000"
+              ></path>
+            </svg>
+            <svg viewBox="0 0 13 10" class="css-1acmxgr" width="13" height="10">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.987 2.772l.025.425-.429-.052c-1.562-.2-2.927-.876-4.086-2.011L.93.571.784.987c-.309.927-.111 1.906.533 2.565.343.364.266.416-.327.2-.206-.07-.386-.122-.403-.096-.06.06.146.85.309 1.161.223.434.678.858 1.176 1.11l.42.199-.497.009c-.481 0-.498.008-.447.19.172.564.85 1.162 1.606 1.422l.532.182-.464.277a4.833 4.833 0 0 1-2.3.641c-.387.009-.704.044-.704.07 0 .086 1.047.572 1.657.762 1.828.564 4 .32 5.631-.641 1.159-.685 2.318-2.045 2.859-3.363.292-.702.583-1.984.583-2.6 0-.398.026-.45.507-.927.283-.277.55-.58.6-.667.087-.165.078-.165-.36-.018-.73.26-.832.226-.472-.164.266-.278.584-.78.584-.928 0-.026-.129.018-.275.096a4.79 4.79 0 0 1-.755.294l-.464.148-.42-.286C9.66.467 9.335.293 9.163.24 8.725.12 8.055.137 7.66.276c-1.074.39-1.752 1.395-1.674 2.496z"
+                fill="#000"
+              ></path>
+            </svg>
+            <svg viewBox="0 0 15 9" class="css-1acmxgr" width="15" height="9">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M.906 8.418V0L5.64 4.76.906 8.419zm13 0L9.174 4.761 13.906 0v8.418zM7.407 6.539l-1.13-1.137L.907 9h13l-5.37-3.598-1.13 1.137zM1.297 0h12.22l-6.11 5.095L1.297 0z"
+                fill="#000"
+              ></path>
+            </svg>
+            <svg class="css-107sgp6" viewBox="0 0 16 13" width="16" height="13">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.406 5.359L8.978 0v3.215C3.82 3.215.406 8.107.406 12.66 1.653 9.133 4.29 7.517 8.978 7.517v3.2l6.428-5.358z"
+                fill="#000"
+              ></path>
+            </svg>
+            <svg
+              stroke="none"
+              width="16px"
+              height="25px"
+              viewBox="0 0 16 25"
+              class="css-ubw31m"
+            >
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g stroke="#666" fill="none">
+                  <path
+                    fill="none"
+                    d="M0.5,0.5 L0.5,24.5 L8.1716264,19.5137775 L15.5,24.4404006 L15.5,0.5 L0.5,0.5 Z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <i class="far fa-comment-alt">
+              <span class="black">857</span>
+            </i>
+          </div> 
+        </div>
+        <div class="article-container">
+          <p class="article-info">
+           Jimmy Cleghorn<br>
+
+
+
+	The green water shook with its salted tongue under the blazing sunlight mouth of the day at noon. I walked along its back and forth talking trying my best to ignore the reaching and the rushing that constantly soaked the  borderline sands creating an ephemeral soaplike foam that would appear and disappear in an endless, unforgiving rhythm.  
+
+	She was walking ahead of me, perhaps flirting with the back and forth speaking of the waves at twelve o’clock. I started to imagine her making love to the untrustworthy sea. I could see this clearly and I could see that no man, not even an ocean of a man would ever tame the wildness that was within her and that I had fallen madly in love with in the early days of that summer. 
+
+	In the sudden of what one might call the moment, I found myself running to reach her. I was going to hug her, my hair reeling in the breeze of motion, I was going to hold her, my heart dancing to the music of expectations, I was going to take her right there and then, my jealousy prepared to jeer at the massive body of water that short and longed and shouted and lounged and seemed to take itself for granted.
+
+	As I touched her shoulder, perhaps first with my almost fleshy breathing, she turned and smiled my name. I embraced her, her hand sashaying along the back of my neck. I held her as near as I could to the ardor I was certain pulsed and pounded all about my body, her own breathing turning into a whisper that unbalanced my senses further into lust and made everything else around me translate itself in silence. I took her upon the sands and stormed into her with that sensational thunder that is the natural envoy of new lovers. 
+
+	Her crimson, serpentine, Irish hair garnering uneven grains as her hips skipped to the electricity between us and I skittered above her skimming touches and stealing glimpses from the magic of the instant. Seconds later, her arms were pressed hard around my waist and she gave voice to a low and violent hum and I felt a loud light beaming through me into her and for no more than a minute I am certain that we glowed. The incandescence just enough to taunt the shaking green water, it seemed, for it’s tongue did lick well past the line and reached our entwined legs just as they were about to untangle.
+
+	Three months times three and two days later, no longer we were we for we had started to become mother and father and all the world mattered not if our child was not well, if our child was not. 
+
+
+
+
+
+          </p>
+          <p>
+          Jasmine Wren <br>
+
+
+	We were holding hands. I remember it was hot that day. The type of heat that makes one forget whatever contemplation was trying to forge and sculpt itself inside the brain and instead simply comment to one’s self some silly phrase about humidity. 
+
+	Perhaps, we had been speaking of how he so admired my older sister’s art and yet could not carry that admiration into said desires. Maybe, I was trying to tease him as I sometimes did with boys back then. In his case it might have been about how he respected her too much and that I was a substitute, a plan b for his misguided longings…  He said that his attraction to me was happenstance, was purely the result of my own enthralling charms. I felt so young, free… Full of miracles waiting to happen… Possibly, even lucky to land the man that roared like the thunder clapping from the stage when he blew that silver alto-saxophone with his bebop band and made me melt with joy when he turned his hard eyes tender to look at me softly.  
+
+	I remember saying that I wanted to walk ahead, I let go of his hand hoping for jealousy, and hurried my steps until I was well ahead of his strides.  The haste and coming sensation of some unknown victory made me excited. It felt hotter, but the contemplation in my mind continued to carve some sort of expectant smile. 
+   
+	I was wearing a snow-colored two piece bathing suit and a linen wrap that offered some protection from the fulgent sun. I felt beautiful and I don’t think I was fooling myself. My scar, which I had always felt a touch self-conscious about and rested with hubris upon my forehead, now breathed with humility like an accepted beauty or birth mark. I remember when he asked me the first time if he could touch it and I said yes and he said he loved that most about me because it made me unique and it was like a lightning bolt that adorned the sky of my face.
+
+	So caught up in this newfound sensation from our crush was I that when he caught up to me I was certain that it had started to rain. My whole body tingled at his touch. He squeezed me so hard, then started to kiss me…  Tackled me down into the sand… I could not resist his impulsive, reckless, caressing. We made love. The joy of it took me away from the salty, humid day, from all worries…  It was just me and his strong shoulders, his adoration, his adorable hazel eyes. 
+
+	A few weeks later I missed my period and found out I was pregnant.  We were married right on that beach which had hosted our passion. The baby was born, the following year, we were parents and dedicated our lives gladly to the fruit of our union. 
+	
+
+
+
+          </p>
+          <p>
+       Jenine<br>
+
+
+	
+	I was born on the first day of March. I grew up in Long Island and save for some trips to Manhattan nothing much seemed to happen. That is, of course, until my parents got divorced. 
+
+	I felt nearer to my father, but I always had more conversations with my mother. The only thing she ever said about the split was, “I love Jimmy, I mean, I love your father, and I always will. Sometimes, people grow apart and that is all that really happened. We grew apart.”
+
+	I thought they were the classic perfect couple and I wasn’t the only one. I don’t have much experience in the matter, but how many couples do you know that get greeting cards when their marriages fail. I even got a dozen or so. I threw them all away, of course. I don’t really think I need a further reminder of the divorce.
+
+	I was ten, then. So, it’s been a few years. My father moved out of the house and I stayed here with my mother. I can’t be sure if it was just the normal teenage need for a sense of independence or if it had something to do with his going, but day after day I had less and less to say my mom. Our conversations became simply the necessary words that would move the moments along from one to the next. 
+
+	“How was your day?”
+
+	“It’s just school.”
+
+	“There’s a lasagna in the fridge.”
+
+	“Yeah.”
+
+	“Estelle called, said she would try your cel.”
+
+	“OK.”
+
+	Somehow, there wouldn’t be anymore to say and I’d be in my room listening to music, doing homework, snacking on electronic tidbits online. Suddenly, it would be the next day and the next. And on those weekends when dad would take me away on one his gigs or come to town to visit, we sadly had little to say to each other. I know they both love me and I love them more than anything… Maybe, we all started growing apart after they separated from each other.
+
+          </p>
+          <p>
+        The Cleghorn Blues<br>
+
+
+
+	I was in Moscow once. Can’t forget the cold. That crazy chill that feels as if there is a strange fire inside the bones and then one remembers it’s the quart of Moskovskaya one drank with the guys to get warm while warming up. 
+
+	It was my second or third year of marriage and I kept the seal sacred. How could I not? Jenine was just starting to ask those questions that babies ask and no matter how silly they might be one smiles because one knows that the questions never end in life and none will be as easy to respond to as those first inquiries from the children. Indeed, how could I not? When my heart was full of protective pride for my little girl and for the woman that had brought her into this world. 
+
+	Russian women are beautiful. Perhaps, they are among the most beautiful of all for one can see the suffering and the seductive trance which reached out to all the world with all forms of greatness: empire, art, monarchy, literature, and revolution.  
+
+	Under the glow of a pettifoggery evening sky with those brilliant faraway stars seemingly trying to illuminate the domes and towers and temples and steeples and jerry-buildings that cannot contain the whistle of the wind when it decides to whip through the cool poetry that still sings even after the Czars, after Lenin and Stalin, after Perestroika, after our performance at some smoky honky-tonk, I walked back to the hotel with the beat echoing and the come-on from some glass snake Sonia haunting me because even if I loved my wife I wondered how that almost languid lizard with lemon colored hair would feel to my fingers, under my drunken body, inside my jazzy embrace. 
+
+	Some years later in Lisboa, I found myself with the same thoughts. It was rum. White and partially drenched with red fruit punch and peach schnapps. It was warm and I met Jeddah by the Tagus. Her Arabian allure and my desire converged, conquered distractions, responsibilities, and vows. Saying her name as we made love reminded me of Sonia’s jubilantly sighed Russian yesses which I dreamed or imagined after meeting her in that barrelhouse a revival or two away from Kremlin square. I was on my way to Paris where the new recording had made some waves after Ozon used a track in one of his films. On top of the world in the famed and yet frumpy Latin Quarter, I passed a woman wearing one of those spiral silk scarves with a design that called out in lavender and cerulean handbells, I started to weep with the wonderfully sad knowledge that my home would never be the same. 
+
+	What is it in us that makes us reach for the unattainable? What is it inside myself that cannot be satisfied? (I told Jasmine a few months later about my affair because I could not stand the silence of a tormenting secret between us and we broke up a few months after that conversation. When I look into Jenine’s eyes especially, I always remember how much it cost me to indulge an erotic adventure.) Madness, simply said, it is. The lunacy that makes our lungs take in the common air and breathe out the idiosyncratic thought that we may compete with the pantheon and somehow dwell within the midst of accomplished deities.  Perhaps I was truly satisfied once or twice, but I have learned that satisfaction often depends on sacrifice yet devotion to one dear thing is no easy task as it requires some small measure of folly and that foolishness in itself leads to further desires which are sometimes masked with the cloth of a promising fulfillment only to later reveal themselves the very pathway to suffering or a despair that could bring expiation or grace but in my case brought separation. 
+
+          </p>
+        </div>
+        <div class="advertisement"></div>
+        <div class="article-container">
+          <p class="article-info">
+           Jasmine’s Triumphant Lamentation
+          </p>
+          <p class="article-info">
+           I blame myself. It was my beauty that drove him crazy with passion from the start. If I had not been such a handsome woman, he would not have missed me so much when he was out on the road. 
+
+	He said he thought about doing it for years and he felt he was lying to himself for holding back. There he was a great actor on the steady and faithful jazz theatre stage being constantly lured by the wild and fast Hollywood whores to the seduction screen. He said it finally happened in Portugal. I have an idea of where Portugal might be but now it’s just a country that I would not care to visit. He said he was desperate to tell me, to come clean, to not have a haunted memory between us. 
+
+          </p>
+          <div class="ad-subscribe">
+            <hr class="ad-division" />
+            <p class="ad-subscribe__grateful">
+              Thanks for reading The Ink.
+            </p>
+            <a
+              class="ad-subscribe__link"
+              href="https://papyrus.so/@inkrealm"
+              >Subscribe to the Ink</a
+            >
+            <hr class="ad-division" />
+          </div>
+          <p class="article-info">
+         I am still not sure as to why it was that divorce came into my mind with such an unnegotiable determination. It just was. Before then, I could share him with his saxophone and I could share him with his band and I could share him with our daughter. Somehow, after his confession, I didn’t want to share him with anything or anyone and without the benefit of much logic I ran into the process of dissolution of marriage. I ran away from him and I am still running.
+
+	And so, I blame myself. I could have said kind supportive words or thought about it with a more balanced view. I could have held on, through the humiliation. 
+
+	He could have me back, maybe, if he really tried. Well, that’s not entirely true. At least, I don’t think it is. See, there is something about the way it is now. It feels as if for the first time I truly have him, all of him. Heart and soul. Before the divorce, he had me. He had me waiting for his return from the road, he had me raising Jenine, he had me as a constant. 
+
+	 All of it feels right if a bit sorrowful and yet I also know that because of my decision there came about a rift between me and my daughter. How can one tear apart a union without disrupting the progeny? How is it that I feel all the blame as well as all the victory? (I have no desire for any other man, but the man I now wholly possess as perhaps he once possessed me when I awaited his return from travels or breastfed his offspring.) The son or daughter always brooks the blood that the parent has spilled and perhaps it is good that we started on our distancing this soon as it might lead to some truer nearness or real friendship in a later future. Irony is what makes all of this possible. It would not have occurred to me in a thousand years that the way to hold his heart was to be entirely away from him. Irony is a miracle in disguise.
+
+          </p>
+          <p class="article-info">
+           Jenine’s Pre-Sweet Sixteen <br>
+
+	
+	Estelle had been talking about my sixteenth birthday party as if the fate of the free world depended on it. Well, Estelle is my aunt, my mother’s sister. They have similar features but my aunt is taller. She is an artist. A painter. Maybe she needed to be taller for the larger canvases. Dad used to talk about her and how much he loved her work. It’s probably the reason that mother doesn’t hang any of her paintings in the house. I have one in my room. It’s beautiful and I remember when I got it how I dreamed over and over again of walking its weird landscape. Anyway, I don’t really think it’s a big deal to turn sixteen and I didn’t really want anything. Well, maybe I wanted some new clothes. 
+
+	I had this idea that I wanted to improve my dressing style as much as possible. Maybe, it was not so important back then but I had a feeling that it would be very important when I got to go to college. College. Gee. That’s really what I wish someone would have talked to me about. I had no idea as to what I wanted to study. Well, there were a lot of subjects that interested me, but to have picked one thing and make that my career? It just felt like too much to know at my age.
+
+	The cel phone rang and it was my aunt. “Jenine?” “Hi, Estelle.”  “You know why I’m calling!” “Yes, but I can’t think of anything special that I want.” “Nothing at all?” “Well, I was considering that getting new clothes might be a good thing. Like specific things that go together well. Something that will give me more of an individual look.” “That’s a good idea and I will discuss it with Jasmine and James, but there really should be a party. Something that will make you feel special. For crying out loud, darling, you only turn sixteen once.” “I know.” “Well, at least make me a list of people that you want to invite. I will pick up some of those French and Italian fashion magazines with hundreds of pages so you can give me a more detailed idea of what it is that you want to get as far as the clothes go.” “Thanks, Estelle. I will try to come up with that list over the weekend. Oh, like how many people can I put on it?” “Let’s say no more than a couple dozen. I’m thinking it would be a lot less stress, more honest, and more intimate.” “Sounds good.” 
+
+	We said goodbye and I pressed the end button feeling a lot better about the whole affair. I so couldn’t wait to see the magazines. 
+	
+	
+	I had this other idea that I wanted to do something which involved music. I thought it would be way cool to manage some rock band and go traveling all over the place the way my dad did. Before that, I might have had some notions about being a musician myself. The piano and I had a relationship for a few years when I was in grade school. I sometimes considered taking up my piano lessons again, but I always felt so tiny sitting there in front of those eighty eight keys with Mrs McQuigg hovering over me, her muscled, short-nailed fingers reminding me how much I loved my curved and glossy fingernails. Funny, I grew a bit but Mrs McQuigg got as big as a small country or beach house and so I thought I would still feel absurdly diminutive at her grand.  Obviously, I didn’t need to pound on the keyboard in order to handle the business matters of a musical group and so my other idea was to become a lawyer. A distinctively dressed entertainment lawyer. 
+
+	I didn’t know it then, but all those thoughts swimming inside my brain and the party itself would lead me a long way away from Long Island. More often than not, I have found, no amount of planning can prepare you for the constant surprises that life seems to like generate without care or caution.
+
+
+
+
+
+          </p>
+          <p class="article-info">
+          Estelle Wren <br>
+
+
+	We were always all very friendly and Janine has always been like a daughter to me. Sure, it’s possible that James had some unrevealed feelings for me. Well, to set the so-called record straight, I did meet him first.
+
+	It was my second or third important exhibition and he happened to be there. The art gallery owner introduced us and he kept raving about one of my paintings. How could I describe it for you? I suppose, if we can agree that there is a sense of hope in humanity within Gauguin and an overwhelmed sense of it within Van Gogh, it’s somewhere between those two artistic daredevils. I entitled the painting Redolence. A longing-eyed blonde woman is peering out through clearstories onto an unsettled sky. James said that it captured the quiddity of society’s restless nature. Ever since, I thought I should have called it quiddity but I didn’t know that word. In any case, we got along and I invited him out to the island. 
+
+	Jasmine and I spent a lot of days with James and more than a few nights listening to his effulgent music at different clubs and hanging out in the city after hours. It seemed to me that we were getting close to each other, but there was something so reverential about the way he treated me. It still is that way and I can’t quite figure it out. It makes me feel terribly special and at the same time it creates a distance. I feel like the queen of some imaginary castle that he constructed inside his musical imagination. A few times, I tried to be a touch vulgar with words and Jasmine would say something like oh, dear Estelle, must I really be exposed to your unrefined expositions? And before I could say anything more vulgar or shocking James would step in with justificatory  words like oh, Jas, don’t be like that, you well know that your sister is a true artist and we can’t hold her up to limits or try to lessen her expression in any way. Fuck me, I would be thinking, but of course, it was Jasmine that got that type of intercourse. 
+
+	Don’t get me wrong, I was thrilled for her and very happy to have him as part of the family as I always knew I could count on his reminding me that I was a woman capable of capturing the quiddity of the age even when some critics complained that my newer work shouldn’t be included in a certain museum. I tell you, there is nothing as confusing as trying to please the art world. Well, actually trying to set up a perfect sweet sixteen is a touch exhausting. 
+
+	Janine. Janine, well I already said how she’s like a daughter to me. I know, that doesn’t really tell you much. I suppose, I should say that I didn’t marry and I didn’t have children and she is the one person in this world I would give up everything for. You know, her parents got divorced yet even so they have each other and their past somehow to fall back on and I feel that Janine only truly has me or perhaps it’s just the other way around and I only truly have her. Some will say that doubt is the key to faith and maybe this unsure sensation of is it me or her reflects that theory. 
+
+	The years pass quickly and now that her sixteenth birthday is approaching I have been thinking back on all that has happened and all that has not. I have an urgent desire to transmit to her the knowledge that the days and months should be taken advantage of, that she should feel empowered to explore and enjoy her inclinations even when they take her down through some wrong turn. I want her to feel terribly special and I have planned to try my best to make her party sensational. I want her to know that she is the masterpiece created by my sister and the man she married who still prompts me to remember how much influence my art is capable of transmitting to an individual. I want her to see how much she means to me. 
+
+
+   </p>
+          <p class="article-info">
+            Jimmy Can’t Swim Anymore<br>
+
+
+
+	The separation is something I think on a lot. I hardly ever think on Jeddah. I find myself often wondering how my life and even my music would have been different.
+
+	I’ve had more than a fair amount of success with my sax. A few years ago, I even got lucky and found a drummer that has stayed around with a steady beat for more than a few gigs. I know there are a lot of skin slapper jokes, my favorite is ‘how do you make a drummer feel confused?’ pause for the musing and reply ‘you hand him the sheet music.’ It’s a cliché, but clichés become so for a reason. Perhaps, I have become a cliché myself; the musician that cannot be faithful while out on the road. Correction, the musician that cannot be faithful to his wife while he is traveling and consequently loses her. 
+
+	Possibly, nothing has really changed save for the disintegration of my marriage. In this world, I have found anything is possible. I do wonder, of course, how it will impact Janine during these formative years. 
+
+
+	It’s puzzling to think that she is already going to be sixteen. I wonder if she would have got along with any of the women which have dated or distracted my longing attention which still yearns to return to my wife. In truth, I haven’t gone out too much with the fairer sex since the separation. But I have found a few dishes and dames to while away some disordered hours.
+
+	It’s not only Russian women that are beautiful and in my travels I have a encountered more than a few fantastic faces. Still, the one that I can’t help drowning in is Jasmine’s. It’s that moment just when my head hits the pillow and I ponder back on the day trying to deliver myself into that sweet land of dreams and maybe there is a lover next to me though usually not and I cannot help but see her and I see her the way she was on that beach where we made love, where we said our vows and married.  
+
+	Sometimes I have wished that I would have kept my indiscretion a secret from my wife. The kicker is that I could not look into her eyes the way I do now in those wee hours from afar where I surrender myself to my lost love even if a girlfriend is beside my body and drown in all the tears that I dream or imagine flowed from her eyes after the separation.
+  </p>
+          <p class="article-info">
+            
+Jasmine’s Emerald And The Trimmings<br>
+
+
+	I’ve had this emerald, well, the emerald has been in my family for several generations. It’s one of my most prized possessions. I didn’t have any occasion to wear it. When Janine was six or seven, I found her sitting at my dressing table. Smeared makeup and she had adorned herself with a necklace that nearly reached to her knees. She held the viridescent, ample, quadratic jewel in her scarce right hand and for a second I worried but it was only a second and it was then that I realized that it would, sooner or later, be her own. 
+
+	As I hold it now in my own thin and not yet too weathered with wrinkles right hand, it seems too small a gift to give my only daughter. It looked so grand somehow when she was just a tiddler.  I just hope she finds the occasion to encase it within some finely wrought silver and use it the way I had one day planned to when mother gave it to me that bright Sunday afternoon when I told her I was with child and invited her to the wedding at the beach.
+
+	It occurs to me how much Estelle has been doing or at least trying to do for Janine’s party. She is so intent on making it a most wonderful event. I wish there was something I could do for her. Not in terms of a gift or anything. The fact is she has everything a person could want in material terms. And even artistically, I don’t think there are many working modern artists that get to have their work hanging inside the Tate or important places like that. It’s queer, she asked me once why I don’t have any of her pieces up at my place and I was simply taken aback and said it’s a matter of personal taste. I know Jimmy would have decorated the whole place with that saffron series she did after her trip to India. I could have cut out his tongue it wagged so much in warm praise. I’m not jealous, not in that way. I don’t know, maybe I am or was, but being her sister I can’t stand or it’s hard to understand someone else saying that Zigaboo is an art genius. Zigaboo is what I would call her when we were kids and no I am not going to divulge what she used to call me. Zigaboo who used to cry when she missed Ricochet Rabbit! Whatever. I just wish her personal life, well I wish she had more fulfillment within it. Romance. Passion.
+
+
+	How can I tell her that her broken, and constantly distempered with several shades of color, nails are probably a turn off to many men? Even other artists. I’ve seen them at the galleries and museums. They are not trying to Rembrandt the canvas with their hands.
+
+	How can I tell her that her hippie style is not alluring or attractive?  They do not see a possible wife or mother to their children. No. They see a fling. And one that would require a good shower to get the paint crumbs off their bodies after as if they had been walking on the beach and the sand danced a stay between the toes diversion. 
+
+	 It could be that the sweet irony of life will bring her, despite the distracting fingernails and flower-child appearance, someone that will bring the fulfillment that romance and passion fasten onto being alive. The way that Jimmy did for me and somehow, strangely still does. 
+	 
+  </p>
+          <p class="article-info">
+            Jenine’s Bitter-Sweet Sweet Sixteen
+
+
+	Oh, my goodness. It was so beautiful. Candles in the trees. A live ballroom tango band in white suits. Friends and family. I can hardly describe it. Estelle was beaming like a full moon on a cloud-free night. I was strut dancing under the line of stylized pink balloons with that tall boy, Dalton, from my Latin class, the accordion humming in my ear and my heart floating.
+
+	Suddenly, I started to hear a fizzle. A strange, slow clink and clanking. Then, little taps upon my partly exposed back. I thought it was Dalton trying to keep time with the swing and sway of the trip the light fantastic but when I looked up at him he was looking around as if someone were tapping on him too. 
+
+	Rain. We stood with deer in the headlight astonishment, for a second or two. The singer stopped crooning. The accordion breathed a cut note and put up the out for lunch sign. Rain with more intensity started to melt people away into their cars. 
+
+	Estelle just stood there looking at the balloons shimmer and drip with sky-water. Goodness, me! I got it, I was sixteen and everything was still yet to come. Rain or shine. I smiled at my aunt with that radiance that I suddenly felt all around me and waited a moment before getting into the sedan but I don’t think she saw me. 
+
+	“Jimmy, please get Estelle out of the rain,” My mother appealed to my father and he skipped over and pulled her into her convertible. It seemed to take forever. Estelle was walking as if she could not believe the weather and refused to yield or hurry for it. I can’t put it into words, but it was like an epilogue to a great novel. I was sixteen and I saw how everything could go wrong and yet there was a way to wing through the weirdest sky and just fly as if nothing had happened. Gee, I wanted to be like that. Yeah. I wanted to be like that in snazzier clothing. 
+
+	We all agreed to meet up at the roadside Denny’s and have a regrouping of sorts. Dalton held my hand as I watched my parents in the front seat. The windshield wipers flapping against the storm, I daydreamed that they had never parted while wondering if Dalton liked me enough to be his girlfriend.  
+	 
+  </p>
+          <p class="article-info">
+            Estelle Serves An Ethereal Thunderbolt
+
+
+	It’s still awkward. Well, when we all get together. The fact is I have never been this happy. To think that it all came about from calling my sister by her childhood nickname in front of everyone at that restaurant we packed into after Janine’s party was poisoned by a surprise shower. 
+
+	It just climbed out of my mouth when she started to second-guess my idea which had obviously been subordinate to a sunny afternoon. “Sugartitties,” I started to argue for myself, but the word moved her to the verge of violence, and instead of trying to further my defense  or deal with whatever it is that makes her want to forget that soubriquet which came about after she placed stolen packets of sugar (from the Woolworth’s cafeteria where we’d eat when our grandmother would take us to help her carry her shopping packages) into one of her training bras, I simply walked out.
+
+	James followed. The rain was rougher still, outside. The skies were roaring. Lightning hued and charged at the natural colors of early evening.  
+
+	He entered at my invitation for a quick coffee and towel. I undressed in front of him, having so often felt his worshiping eyes as I bared my soul or mind and translated with brush or knife or nail onto the unframed canvases. 
+
+	Hesitation. “I have always loved you too much to attempt to burden you with the weight of that emotion,” he said.  I walked into his arms and we’ve been together ever since. 
+
+	It was dreamlike, but isn’t life sometimes when the dogs of war are sleeping and the sparrows are breeding? 
+
+	Yes, it is. 
+	
+
+
+-the end-
+
+
+  </p>
+
+
+
+
+          </p>
+        </div>
+        <aside class="editor-pick">
+          <h2 class="editor-pick__title">other ink</h2>
+          <a class="editor-pick__link flex-space-btwn" href="https://inkrealm.batcave.net/">
+            <img
+              class="editor-pick__link-img"
+              src="https://inkrealm.batcave.net/wp-content/uploads/2022/02/VAPORGRAM1645603130373.gif"
+              alt=""
+            />
+            <h3 class="editor-pick__link-title flex-space-btwn black">
+              ‘dick pic’
+            </h3>
+          </a>
+          <a class="editor-pick__link flex-space-btwn" href="">
+            <img
+              class="editor-pick__link-img"
+              src="https://www.pw.org/files/styles/directory_profile/public/writers/japp.jpg?itok=m5pZpi2h"
+              alt=""
+            />
+ 
+          <p class="article-info">
+           site under construction, please stand by
+          </p>
+        </div>
+        <figure class="video-container">
+          <iframe
+            width="600"
+            height="358"
+            src="https://www.youtube.com/watch?v=IG3LAUonvCc"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+ 
+            </li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="upper-footer">
+        <div class="content">
+          <hr class="separator-content" />
+          <div class="new-logo">
+            <svg class="css-oylsik st-current" viewBox="0 0 184 25" fill="#000">
+              <path
+                d="M13.8 2.9c0-2-1.9-2.5-3.4-2.5v.3c.9 0 1.6.3 1.6 1 0 .4-.3 1-1.2 1-.7 0-2.2-.4-3.3-.8C6.2 1.4 5 1 4 1 2 1 .6 2.5.6 4.2c0 1.5 1.1 2 1.5 2.2l.1-.2c-.2-.2-.5-.4-.5-1 0-.4.4-1.1 1.4-1.1.9 0 2.1.4 3.7.9 1.4.4 2.9.7 3.7.8v3.1L9 10.2v.1l1.5 1.3v4.3c-.8.5-1.7.6-2.5.6-1.5 0-2.8-.4-3.9-1.6l4.1-2V6l-5 2.2C3.6 6.9 4.7 6 5.8 5.4l-.1-.3c-3 .8-5.7 3.6-5.7 7 0 4 3.3 7 7 7 4 0 6.6-3.2 6.6-6.5h-.2c-.6 1.3-1.5 2.5-2.6 3.1v-4.1l1.6-1.3v-.1l-1.6-1.3V5.8c1.5 0 3-1 3-2.9zm-8.7 11l-1.2.6c-.7-.9-1.1-2.1-1.1-3.8 0-.7 0-1.5.2-2.1l2.1-.9v6.2zm10.6 2.3l-1.3 1 .2.2.6-.5 2.2 2 3-2-.1-.2-.8.5-1-1V9.4l.8-.6 1.7 1.4v6.1c0 3.8-.8 4.4-2.5 5v.3c2.8.1 5.4-.8 5.4-5.7V9.3l.9-.7-.2-.2-.8.6-2.5-2.1L18.5 9V.8h-.2l-3.5 2.4v.2c.4.2 1 .4 1 1.5l-.1 11.3zM34 15.1L31.5 17 29 15v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.6l-1 .8.2.2.9-.7 3.4 2.5 4.5-3.6-.1-.4zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zM53.1 2c0-.3-.1-.6-.2-.9h-.2c-.3.8-.7 1.2-1.7 1.2-.9 0-1.5-.5-1.9-.9l-2.9 3.3.2.2 1-.9c.6.5 1.1.9 2.5 1v8.3L44 3.2c-.5-.8-1.2-1.9-2.6-1.9-1.6 0-3 1.4-2.8 3.6h.3c.1-.6.4-1.3 1.1-1.3.5 0 1 .5 1.3 1v3.3c-1.8 0-3 .8-3 2.3 0 .8.4 2 1.6 2.3v-.2c-.2-.2-.3-.4-.3-.7 0-.5.4-.9 1.1-.9h.5v4.2c-2.1 0-3.8 1.2-3.8 3.2 0 1.9 1.6 2.8 3.4 2.7v-.2c-1.1-.1-1.6-.6-1.6-1.3 0-.9.6-1.3 1.4-1.3.8 0 1.5.5 2 1.1l2.9-3.2-.2-.2-.7.8c-1.1-1-1.7-1.3-3-1.5V5l8 14h.6V5c1.5-.1 2.9-1.3 2.9-3zm7.3 13.1L57.9 17l-2.5-2v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.6l-1 .8.2.2.9-.7 3.4 2.5 4.5-3.6-.1-.4zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zM76.7 8l-.7.5-1.9-1.6-2.2 2 .9.9v7.5l-2.4-1.5V9.6l.8-.5-2.3-2.2-2.2 2 .9.9V17l-.3.2-2.1-1.5v-6c0-1.4-.7-1.8-1.5-2.3-.7-.5-1.1-.8-1.1-1.5 0-.6.6-.9.9-1.1v-.2c-.8 0-2.9.8-2.9 2.7 0 1 .5 1.4 1 1.9s1 .9 1 1.8v5.8l-1.1.8.2.2 1-.8 2.3 2 2.5-1.7 2.8 1.7 5.3-3.1V9.2l1.3-1-.2-.2zm18.6-5.5l-1 .9-2.2-2-3.3 2.4V1.6h-.3l.1 16.2c-.3 0-1.2-.2-1.9-.4l-.2-13.5c0-1-.7-2.4-2.5-2.4s-3 1.4-3 2.8h.3c.1-.6.4-1.1 1-1.1s1.1.4 1.1 1.7v3.9c-1.8.1-2.9 1.1-2.9 2.4 0 .8.4 2 1.6 2V13c-.4-.2-.5-.5-.5-.7 0-.6.5-.8 1.3-.8h.4v6.2c-1.5.5-2.1 1.6-2.1 2.8 0 1.7 1.3 2.9 3.3 2.9 1.4 0 2.6-.2 3.8-.5 1-.2 2.3-.5 2.9-.5.8 0 1.1.4 1.1.9 0 .7-.3 1-.7 1.1v.2c1.6-.3 2.6-1.3 2.6-2.8s-1.5-2.4-3.1-2.4c-.8 0-2.5.3-3.7.5-1.4.3-2.8.5-3.2.5-.7 0-1.5-.3-1.5-1.3 0-.8.7-1.5 2.4-1.5.9 0 2 .1 3.1.4 1.2.3 2.3.6 3.3.6 1.5 0 2.8-.5 2.8-2.6V3.7l1.2-1-.2-.2zm-4.1 6.1c-.3.3-.7.6-1.2.6s-1-.3-1.2-.6V4.2l1-.7 1.4 1.3v3.8zm0 3c-.2-.2-.7-.5-1.2-.5s-1 .3-1.2.5V9c.2.2.7.5 1.2.5s1-.3 1.2-.5v2.6zm0 4.7c0 .8-.5 1.6-1.6 1.6h-.8V12c.2-.2.7-.5 1.2-.5s.9.3 1.2.5v4.3zm13.7-7.1l-3.2-2.3-4.9 2.8v6.5l-1 .8.1.2.8-.6 3.2 2.4 5-3V9.2zm-5.4 6.3V8.3l2.5 1.8v7.1l-2.5-1.7zm14.9-8.4h-.2c-.3.2-.6.4-.9.4-.4 0-.9-.2-1.1-.5h-.2l-1.7 1.9-1.7-1.9-3 2 .1.2.8-.5 1 1.1v6.3l-1.3 1 .2.2.6-.5 2.4 2 3.1-2.1-.1-.2-.9.5-1.2-1V9c.5.5 1.1 1 1.8 1 1.4.1 2.2-1.3 2.3-2.9zm12 9.6L123 19l-4.6-7 3.3-5.1h.2c.4.4 1 .8 1.7.8s1.2-.4 1.5-.8h.2c-.1 2-1.5 3.2-2.5 3.2s-1.5-.5-2.1-.8l-.3.5 5 7.4 1-.6v.1zm-11-.5l-1.3 1 .2.2.6-.5 2.2 2 3-2-.2-.2-.8.5-1-1V.8h-.1l-3.6 2.4v.2c.4.2 1 .3 1 1.5v11.3zM143 2.9c0-2-1.9-2.5-3.4-2.5v.3c.9 0 1.6.3 1.6 1 0 .4-.3 1-1.2 1-.7 0-2.2-.4-3.3-.8-1.3-.4-2.5-.8-3.5-.8-2 0-3.4 1.5-3.4 3.2 0 1.5 1.1 2 1.5 2.2l.1-.2c-.3-.2-.6-.4-.6-1 0-.4.4-1.1 1.4-1.1.9 0 2.1.4 3.7.9 1.4.4 2.9.7 3.7.8V9l-1.5 1.3v.1l1.5 1.3V16c-.8.5-1.7.6-2.5.6-1.5 0-2.8-.4-3.9-1.6l4.1-2V6l-5 2.2c.5-1.3 1.6-2.2 2.6-2.9l-.1-.2c-3 .8-5.7 3.5-5.7 6.9 0 4 3.3 7 7 7 4 0 6.6-3.2 6.6-6.5h-.2c-.6 1.3-1.5 2.5-2.6 3.1v-4.1l1.6-1.3v-.1L140 8.8v-3c1.5 0 3-1 3-2.9zm-8.7 11l-1.2.6c-.7-.9-1.1-2.1-1.1-3.8 0-.7.1-1.5.3-2.1l2.1-.9-.1 6.2zm12.2-12h-.1l-2 1.7v.1l1.7 1.9h.2l2-1.7v-.1l-1.8-1.9zm3 14.8l-.8.5-1-1V9.3l1-.7-.2-.2-.7.6-1.8-2.1-2.9 2 .2.3.7-.5.9 1.1v6.5l-1.3 1 .1.2.7-.5 2.2 2 3-2-.1-.3zm16.7-.1l-.7.5-1.1-1V9.3l1-.8-.2-.2-.8.7-2.3-2.1-3 2.1-2.3-2.1L154 9l-1.8-2.1-2.9 2 .1.3.7-.5 1 1.1v6.5l-.8.8 2.3 1.9 2.2-2-.9-.9V9.3l.9-.6 1.5 1.4v6l-.8.8 2.3 1.9 2.2-2-.9-.9V9.3l.8-.5 1.6 1.4v6l-.7.7 2.3 2.1 3.1-2.1v-.3zm8.7-1.5l-2.5 1.9-2.5-2v-1.2l4.7-3.2v-.1l-2.4-3.6-5.2 2.8v6.8l3.5 2.5 4.5-3.6-.1-.3zm-5-1.7V8.5l.2-.1 2.2 3.5-2.4 1.5zm14.1-.9l-1.9-1.5c1.3-1.1 1.8-2.6 1.8-3.6v-.6h-.2c-.2.5-.6 1-1.4 1-.8 0-1.3-.4-1.8-1L176 9.3v3.6l1.7 1.3c-1.7 1.5-2 2.5-2 3.3 0 1 .5 1.7 1.3 2l.1-.2c-.2-.2-.4-.3-.4-.8 0-.3.4-.8 1.2-.8 1 0 1.6.7 1.9 1l4.3-2.6v-3.6h-.1zm-1.1-3c-.7 1.2-2.2 2.4-3.1 3l-1.1-.9V8.1c.4 1 1.5 1.8 2.6 1.8.7 0 1.1-.1 1.6-.4zm-1.7 8c-.5-1.1-1.7-1.9-2.9-1.9-.3 0-1.1 0-1.9.5.5-.8 1.8-2.2 3.5-3.2l1.2 1 .1 3.6z"
+              ></path>
+            </svg>
+          </div>
+          <div class="footer-links flex-space-btwn">
+            <div class="content-links flex-space-btwn">
+              <ul>
+                <li class="span">News</li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Home Page</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >World</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">U.s</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Politics</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Election 2020</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >New York</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Business</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Tech</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Science</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Sports</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Obituaries</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Today’s paper</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Corrections</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li class="span">Opinion</li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Today's opinion</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Op-Ed columnist</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Editorials</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Op-Ed Contributors</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Letters</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Sunday Review</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Video Opinion</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li class="span">Arts</li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Today's Arts</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Art & Design</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Books</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Dance</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Movies</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Music</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Pop Culture</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Television</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Theater</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Video: Arts</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li class="span">Living</li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >At Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Automobiles</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Games</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Edication</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Food</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Health</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Magazine</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Parenting</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Real State</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Recipes</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Style</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >T Magazine</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Travel</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li class="span">More</li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Reader Center</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Wirecutter</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Live Events</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >The Learning Network</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Tools & Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Multimedia</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Photography</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Video</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Newsletter</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >TimesMachine</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >NYT Store</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Times Journeys</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Manage My Account</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <aside class="subscribe-aside">
+              <span>Subscribe</span>
+              <ul class="subscribe-links">
+                <li>
+                  <a href="">
+                    <i class="far fa-newspaper"></i>
+                    Home Delivery
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fab fa-tumblr"></i>
+                    Digital Subscription
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fas fa-chess-board"></i>
+                    Games
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i class="fas fa-utensils"></i>
+                    Cooking
+                  </a>
+                </li>
+              </ul>
+              <ul class="corporate-links">
+                <li><a href="">Email Newsletters</a></li>
+                <li><a href="">Corporate Subscription</a></li>
+                <li><a href="">Education Rate</a></li>
+              </ul>
+              <hr class="side-line" />
+              <ul class="alternate-links">
+                <li><a href="">Mobile Aplications</a></li>
+                <li><a href="">Replica Edition</a></li>
+                <li><a href="">Español</a></li>
+                <li><a href="">中文网</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="middle-footer">
+        <ul>
+          <li><a href="#">2022 inkrealm</a></li>
+          <li><a href="#">inky</a></li>
+          <li><a href="#">Contact </a></li>
+          <li><a href="#">donate</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">ain't no wifey</a></li>
+          <li><a href="#">end slavery</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms and Service</a></li>
+          <li><a href="#">Terms of Sale</a></li>
+          <li><a href="">Site Map</a></li>
+          <li><a href="#">Help The Muslims</a></li>
+          <li><a href="https://inkrealm.company.site/">Subscriptions</a></li>
+        </ul>
+      </div>
+      <div class="fixed-footer width-100">
+        <span>Subscribe for $39.00 a week. Nine dollars off Ends soon</span>
+        <span>EXPAND <i class="fas fa-angle-up"></i></span>
+      </div>
+    </footer>
+  </body>
+</html>
