@@ -195,7 +195,15 @@ a:hover {
 .article-subtitle {
   font-size: var(--main-font-size);
 }
+.mobile-text {
+  text-align: right !important;
+}
 
+@media (max-device-width: 600px) {
+  .mobile-text {
+    text-align: center !important;
+  }
+}
 /*
   =========================================
             MIDDLE AD SUBSCRIPTION
