@@ -138,7 +138,11 @@ a:hover {
   padding-top: 40px;
   line-height: 1.6rem;
 }
-
+@media (max-width: 600px) {
+  .mobile-text {
+    text-align: center;
+  }
+}
 .publish-date,
 .article-container {
   grid-column: 2;
